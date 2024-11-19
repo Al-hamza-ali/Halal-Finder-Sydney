@@ -1,0 +1,51 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    color: #333;
+}
+
+header {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* Sections Styling */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h2, h3 {
+    color: #ff6600;
+}
